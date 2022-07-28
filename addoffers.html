@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Form</title>
+    <!--Google Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/addservices.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add Offers</h1>
+      <form>
+        <div class="row">
+          <div class="column">
+            <label for="name">Offer Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter offer name here"
+            />
+          </div>
+          <div class="column">
+            <label for="url">Link</label>
+            <input type="url" id="url" placeholder="Enter offer link here" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="number">Discount</label>
+            <input
+              type="number"
+              min="0"
+              id="subject"
+              placeholder="Enter discount here"
+            />
+          </div>
+          <div class="column">
+            <label for="contact">Contact Number</label>
+            <input
+              type="tel"
+              id="contact"
+              placeholder="Your phone number here"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="issue">Describe</label>
+            <textarea
+              id="issue"
+              placeholder="Describe offert here"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+        <div class="button">
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
