@@ -44,10 +44,22 @@
 
       <!-- Sidebar  -->
       <nav id="sidebar">
-        <div class="sidebar-header">
+        <div class="sidebar-header" style="display: flex; align-items: center; justify-content: space-evenly;">
           <h3>
             <img src="img/logo.png" class="img-fluid" /><span>Y-Perz</span>
           </h3>
+          <button
+                class="d-inline-block d-lg-none ml-auto more-button"
+                type="button"
+                style="border: none; background: transparent;"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+              <i class="fa fa-times" aria-hidden="true"></i>
+              </button>
         </div>
         <ul class="list-unstyled components">
           <li class="active">
@@ -695,6 +707,7 @@
         $(".more-button,.body-overlay").on("click", function () {
           $("#sidebar,.body-overlay").toggleClass("show-nav");
         });
+        
       });
     </script>
     <script>
