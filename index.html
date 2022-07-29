@@ -39,7 +39,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="body-overlay"></div>
+      <!-- <div class="body-overlay"></div> -->
 
       <!-- Sidebar  -->
       <nav id="sidebar">
@@ -50,7 +50,7 @@
         </div>
         <ul class="list-unstyled components">
           <li class="active">
-            <a href="#" class="dashboard"
+            <a href="index.html" class="dashboard"
               ><i class="material-icons">dashboard</i><span>Dashboard</span></a
             >
           </li>
@@ -232,8 +232,8 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-lg-7 col-md-12">
+          <!-- <div class="row"> -->
+            <div class="table col-lg-12 col-md-12">
               <div class="card" style="min-height: 485px">
                 <div
                   style="
@@ -249,20 +249,22 @@
                   
                   <div style="display: flex; align-items: center">
                     <input
-                      style="border-radius: 4px; height: 35px"
+                      style="border-radius: 4px; height: 25px; width:55px;"
                       type="text"
                       id="myInput"
                       onkeyup="myFunction()"
-                      placeholder="Search users..."
+                      placeholder="Search"
                     />
-                    <p>
-                      <button id="sortButton" onclick="sortTable()">Up</button>
-                    </p>
-                    <p>
-                      <button id="sortButton" onclick="unsortTable()">
-                        Down
-                      </button>
-                    </p>
+                    <div class="updown" style="display: flex; justify-content: center; align-items: center;">
+                      <p>
+                        <button style="border: none; border-radius: 4px; height: 30px; width:35px;" id="sortButton" onclick="sortTable()">Up</button>
+                      </p>
+                      <p>
+                        <button style="border: none; border-radius: 4px; height: 25px; width:55px;" id="sortButton" onclick="unsortTable()">
+                          Down
+                        </button>
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -355,7 +357,7 @@
                   </table>
                 </div>
               </div>
-            </div>
+            <!-- </div> -->
 
             <!-- <div class="col-lg-5 col-md-12">
               <div class="card" style="min-height: 485px">
@@ -412,29 +414,9 @@
           <footer class="footer">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-6">
-                  <nav class="d-flex">
-                    <ul class="m-0 p-0">
-                      <li>
-                        <a href="#"> Home </a>
-                      </li>
-                      <li>
-                        <a href="#"> Users </a>
-                      </li>
-                      <li>
-                        <a href="#"> Services </a>
-                      </li>
-                      <li>
-                        <a href="#"> </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-                <div class="col-md-6">
                   <p class="copyright d-flex justify-content-end">
                     &copy 2022 Design by TDPVista.
                   </p>
-                </div>
               </div>
             </div>
           </footer>

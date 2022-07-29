@@ -28,6 +28,7 @@ p {
 
 #myInput {
 	font-size: 15px;
+    border: none;
 	margin: 0 10px 0;
 	line-height: 24px;
 }
@@ -696,7 +697,7 @@ footer .copyright {
     top: 0;
     border: 1px solid #dcd9d9;
     z-index: 4;
-}                                                                                                                                                                                                              
+}     
 }
 
 
@@ -743,6 +744,10 @@ footer .copyright {
 	z-index:3;
 	transition: all 150ms linear;
 	background-color:rgba(0,0,0,0.5);
+}
+
+.table{
+    font-size: 12px;
 }
 }
 /*===============small-screen overlay sidebar design media queries==============*/
