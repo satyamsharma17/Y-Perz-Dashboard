@@ -32,6 +32,12 @@ p {
 	margin: 0 10px 0;
 	line-height: 24px;
 }
+#myModalInput {
+	font-size: 15px;
+    border: none;
+	margin: 0 10px 0;
+	line-height: 24px;
+}
 
 a{
 	color: #333;
@@ -118,10 +124,6 @@ a:focus {
     width:100%;
 	overflow:auto;
 }
-
-
-
-
 
 /* ---------------------------------------------------
     SIDEBAR STYLE start
